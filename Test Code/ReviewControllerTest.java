@@ -36,10 +36,10 @@ public class ReviewControllerTest {
         reviews = new ArrayList<Review>();
 
         review = new Review();
-        review.setPlace("Mumbai");
+        review.setPlace("BD");
         review.setDateAdded(new java.sql.Date(new Date().getTime()));
         review2 = new Review();
-        review2.setPlace("USA");
+        review2.setPlace("Bd");
         review2.setReview(null);
         review2.setDateAdded(new java.sql.Date(new Date().getTime()));
 
